@@ -1,0 +1,1361 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+ :root {
+    --accent-color: #149ddd;
+    --heading-color--: #050d18;
+    --default-color--: #272829;
+    --background-color--: #ffffff;
+    --skill-bar--: #cde1eb;
+ }
+
+
+ html {
+    scroll-behavior: smooth;
+ }
+
+
+
+ body {
+    font-family: "Roboto", serif;
+ }
+
+
+
+ .parent1 {
+    width: 17%;
+    height: 100vh;
+    background-color: var(--heading-color--);
+    float: left;
+    position: fixed;
+ }
+
+
+ .parent1 h3 {
+    color: var(--background-color--);
+    padding-top: 10px;
+ }
+
+ #parent2 {
+    width: 83%;
+    height: 100vh;
+    float: right;
+ }
+
+
+ .parent1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+ }
+
+ .parent1 h3 {
+    text-align: center;
+    font-size: 25px;
+ }
+
+ .home {
+    padding: 5px 10px;
+    padding-top: 80px;
+    margin-left: 20px;
+    width: 100%;
+ }
+
+ .home a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    margin-left: 7px;
+ }
+
+ .home i {
+    color: gray;
+ }
+
+ .link {
+    padding: 12px 10px;
+    margin-left: 20px;
+    width: 100%;
+ }
+
+ .link i {
+    color: gray;
+ }
+
+ .link a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    margin-left: 5px;
+ }
+
+ .about a {
+    margin-left: 10px;
+ }
+
+ .skillss a {
+    margin-left: 13px;
+ }
+
+ .skillss i {
+    margin-left: 1px;
+ }
+
+ .project a {
+    margin-left: 8px;
+ }
+
+ .contactt a {
+    margin-left: 8px;
+ }
+
+ .link:hover.link i {
+    cursor: pointer;
+    color: var(--accent-color);
+ }
+
+ .link:hover.link a {
+    cursor: pointer;
+    color: var(--background-color--);
+ }
+
+ .home:hover.home i {
+    cursor: pointer;
+    color: var(--accent-color);
+ }
+
+ .home:hover.home a {
+    cursor: pointer;
+    color: var(--background-color--);
+ }
+
+ /*  parent 1 end */
+
+
+ .container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    position: relative;
+ }
+
+ .container1 img {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+ }
+
+
+ .container1 .pera1 {
+    font-weight: bold;
+    font-size: 45px;
+    color: var(--background-color--);
+ }
+
+ .container1 .pera2 {
+    font-size: 35px;
+    padding-top: 5px;
+    color: var(--background-color--);
+ }
+
+
+ .burger {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    display: none;
+    z-index: 999;
+ }
+
+ .line {
+    width: 33px;
+    height: 4px;
+    margin: 5px;
+    background-color: var(--heading-color--);
+ }
+
+ /* container 1 end */
+
+
+ .container2 h1 {
+    padding: 50px 20px;
+    padding-bottom: 10px;
+ }
+
+ .container2 p {
+    padding: 20px 20px;
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+
+ .box {
+    width: 100%;
+    padding: 0px 20px;
+    display: block;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+ }
+
+ .child1 {
+    width: 30%;
+    height: 370px;
+ }
+
+ .child1 img {
+    width: 100%;
+    height: 370px;
+ }
+
+ .child2 {
+    width: 70%;
+ }
+
+ .child2 p.pp {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -12px;
+    color: black;
+ }
+
+ .child2 p.p2 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 20px;
+ }
+
+ .edu {
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+ }
+
+ .edu2 {
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
+ }
+
+
+ .div {
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+ }
+
+ .div i {
+    color: var(--accent-color);
+    margin-right: 3px;
+ }
+
+ #div {
+    padding-right: 10px;
+ }
+
+ .child2 .p3 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+ }
+
+
+ /* container 2 end */
+
+
+ .container4 {
+    width: 100%;
+    padding: 0px 20px;
+    padding-bottom: 150px;
+ }
+
+ .container4 h1 {
+    padding: 50px 0px;
+    padding-bottom: 10px;
+ }
+
+ .container4 #pera {
+    padding: 20px 0px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+ .eeducation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
+
+ .eduu {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+    padding: 0px 20px;
+ }
+
+ .icon-back {
+    background-color: var(--accent-color);
+    height: 65px;
+    border-radius: 50px;
+    margin: 0px 20px;
+    margin-left: 0px;
+ }
+
+ .icon-back i {
+    font-size: 27px;
+    padding: 0px 20px;
+    padding-top: 13px;
+    color: var(--background-color--);
+ }
+
+ .edu-content {
+    padding-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+ }
+
+ .edu-content p {
+    text-align: center;
+    font-size: 16px;
+ }
+
+ .edu-content p.year {
+    font-size: 18px;
+    font-weight: 900;
+ }
+
+ .eduu:hover .icon-back {
+    background-color: var(--skill-bar--);
+ }
+
+
+ /* container 4 end */
+
+ .container3 {
+    width: 100%;
+    background-color: #f4fafd;
+    padding-bottom: 50px;
+ }
+
+ .container3 h1 {
+    padding: 50px 20px;
+    padding-bottom: 10px;
+ }
+
+ .container3 p {
+    padding: 20px 20px;
+    padding-bottom: 30px;
+    /* padding-bottom: 40px; */
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+
+ #skil {
+    width: 50%;
+    padding-bottom: 50px;
+    padding-left: 20px;
+ }
+
+ #skills {
+    width: 100%;
+    max-width: 60%;
+    padding: 0px 20px;
+ }
+
+ .skill-name {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0;
+ }
+
+ .skill-bar {
+    height: 10px;
+    background: var(--skill-bar--);
+    border-radius: 3px;
+ }
+
+
+ .skill-per {
+    height: 10px;
+    background: var(--accent-color);
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+ }
+
+ .skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #111;
+    color: var(--background-color--);
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0px;
+    transform: translateX(50%);
+ }
+
+ .skill-per::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: var(--heading-color--);
+    top: -17.5px;
+    right: 0px;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+ }
+
+ @keyframes fillBars {
+    from {
+       width: 0;
+    }
+
+    to {
+       width: 100%;
+    }
+ }
+
+ /* container 3 end */
+
+ .container5 {
+    width: 100%;
+    padding: 0px 20px;
+    background-color: var(--skill-bar--);
+ }
+
+ .container5 h1 {
+    padding: 50px 0px;
+    padding-bottom: 10px;
+ }
+
+ .container5 p {
+    padding: 20px 0px;
+    padding-bottom: 30px;
+    /* padding-bottom: 40px; */
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+ .projects {
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .project-box {
+    width: 30%;
+    background-color: var(--background-color--);
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+ }
+
+ .project-box h2 {
+    text-align: center;
+    padding: 10px 0;
+ }
+
+ .btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+ }
+
+ .btn a {
+    text-decoration: none;
+ }
+
+ .fbtn {
+    background-color: var(--accent-color);
+    color: var(--background-color--);
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+ }
+
+ .sbtn {
+    background-color: var(--default-color--);
+    color: var(--background-color--);
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+ }
+
+ #project-box1 img {
+    width: 100%;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
+ }
+
+ /* container 5 end */
+
+ .container6 {
+    width: 100%;
+    padding: 0px 20px;
+ }
+
+ .container6 h1 {
+    padding: 50px 0px;
+    padding-bottom: 10px;
+ }
+
+ .container6 #peraa {
+    padding: 20px 0px;
+    padding-bottom: 30px;
+    /* padding-bottom: 40px; */
+    font-size: 16px;
+    line-height: 20px;
+ }
+
+ .contact {
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    gap: 15px;
+ }
+
+ .contact-box {
+    width: 35%;
+    height: 270px;
+    background-color: whitesmoke;
+    padding: 20px;
+ }
+
+ .content {
+    width: 100%;
+ }
+
+ .content p {
+    padding: 20px 0px;
+    margin: 0px;
+    font-size: 16px;
+ }
+
+
+
+ .conct-box {
+    display: flex;
+    gap: 17px;
+ }
+
+ .conct-box:hover .icon {
+    background-color: var(--accent-color);
+    transition: all 0.8s ease-out;
+ }
+
+ .conct-box:hover .icon i {
+    color: var(--background-color--);
+    transition: all 0.8s ease-out;
+ }
+
+ .icon {
+    background-color: var(--skill-bar--);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+ }
+
+ .icon i {
+    color: var(--accent-color);
+ }
+
+
+
+ .contact-box1 {
+    width: 65%;
+    padding: 20px;
+    background-color: whitesmoke;
+ }
+
+
+ .contact-box1 label {
+    font-size: 16px;
+ }
+
+ .content p {
+    margin-top: -13px;
+ }
+
+ .part-one {
+    display: flex;
+ }
+
+ .part-one-left {
+    width: 50%;
+ }
+
+ .part-one-right {
+    width: 50%;
+ }
+
+ .part-one-left input {
+    width: 90%;
+    padding: 8px 0px;
+    margin-top: 3px;
+    padding-left: 5px;
+ }
+
+ .part-one-right input {
+    width: 90%;
+    padding: 8px 0px;
+    margin-top: 3px;
+    padding-left: 5px;
+ }
+
+ .part-two {
+    margin-top: 24px;
+ }
+
+ .part-two input {
+    padding: 8px 0px;
+    width: 95%;
+    margin-top: 3px;
+    padding-left: 5px;
+ }
+
+ .part-three {
+    width: 100%;
+    margin-top: 24px;
+ }
+
+ textarea {
+    margin-top: 3px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 95%;
+    height: 300px;
+ }
+
+
+
+ .contact-box1 button {
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    margin-top: 10px;
+    border: 1px solid var(--accent-color);
+    border-radius: 15px;
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--background-color--);
+    font-weight: 500;
+ }
+
+ .part-one-left input:active {
+    border-color: var(--accent-color);
+ }
+
+ /* footer start */
+
+ footer {
+    background-color: var(--skill-bar--);
+    padding: 50px 0px;
+ }
+
+ /* footer end */
+
+ /* h1::after under line start */
+
+ h1 {
+    position: relative;
+ }
+
+ h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background-color: var(--accent-color);
+ }
+
+ .container3 h1 {
+    position: relative;
+ }
+
+ .container3 h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-left: 20px;
+ }
+
+ .container2 h1 {
+    position: relative;
+ }
+
+ .container2 h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-left: 20px;
+ }
+
+ /* h1::after under line coding end*/
+
+
+ /* MEDIA QUERIES START */
+
+ @media screen and (max-width: 1250px) {
+    .burger {
+       display: block;
+       position: fixed;
+       cursor: pointer;
+    }
+
+    .parent1 {
+       width: 0;
+       overflow: hidden;
+    }
+
+    #parent2 {
+       width: 100%;
+    }
+
+    .container1 .pera1 {
+       font-size: 50px;
+    }
+
+    .container1 .pera2 {
+       font-size: 35px;
+    }
+
+    .child2 p.pp {
+       padding: 15px;
+    }
+
+    .parent1-resp {
+       width: 250px;
+       z-index: 888;
+       transition: all 0.6s ease-in-out;
+    }
+
+    .resp-parent1 {
+       width: 0;
+       opacity: 1;
+       transition: all 0.6s ease-in;
+    }
+
+    /* container 4 start */
+
+    .eduu {
+       justify-content: start;
+       align-items: start;
+       padding: 0px;
+    }
+
+    .edu-content {
+       align-items: start;
+    }
+
+    .edu-content p {
+       text-align: start;
+    }
+
+    /* container 4 end */
+ }
+
+
+
+
+ @media screen and (max-width: 995px) {
+    .box {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .child1 {
+       width: 80%;
+       height: auto;
+    }
+
+    .child1 img {
+       width: 100%;
+       height: auto;
+    }
+
+
+    .child2 {
+       width: 80%;
+    }
+
+    .child2 p {
+       margin-left: -20px;
+    }
+
+
+    .child2 p.p2 {
+       margin-left: -20px;
+       width: 100%;
+    }
+
+
+    .child2 p.p3 {
+       margin-left: -20px;
+       width: 100%;
+    }
+
+    .div {
+       margin-left: -10px;
+    }
+
+    .container2 h1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container2 hr {
+       margin-left: 120px;
+       display: block;
+    }
+
+    .container2 p {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .child2 p.pp {
+       margin-top: 10px;
+       margin-right: 170px;
+       margin-left: -20px;
+       text-align: start;
+    }
+
+
+    /* container 3 start */
+
+
+    .container3 h1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container3 hr {
+       margin-left: 120px;
+       display: block;
+    }
+
+    .container3 p {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    #skil {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+
+    /* container 4 start */
+
+
+    .container4 h1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container4 hr {
+       margin-left: 95px;
+       display: block;
+    }
+
+    .container4 #pera {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .eeducation {
+       width: 80%;
+       flex-direction: column;
+       gap: 30px;
+       /* display: block; */
+       margin: auto;
+    }
+
+    .eduu {
+       width: 100%;
+       flex-direction: row;
+       align-items: start;
+       justify-content: start;
+       padding-bottom: 80px;
+    }
+
+    .edu-content {
+       align-items: start;
+    }
+
+    .edu-content p {
+       text-align: start;
+    }
+
+
+    /* container 5 start */
+
+    .container5 h1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container5 hr {
+       margin-left: 95px;
+       display: block;
+    }
+
+    .container5 p {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .projects {
+       width: 80%;
+       display: block;
+       margin: auto;
+       display: flex;
+       gap: 20px;
+       flex-wrap: wrap;
+    }
+
+    .project-box {
+       width: 48%;
+    }
+
+    /* container 6 start */
+
+    .container6 h1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container6 hr {
+       margin-left: 95px;
+       display: block;
+    }
+
+    .container6 #peraa {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+
+
+    .contact {
+       flex-direction: column;
+    }
+
+    .contact-box1 {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .contact-box {
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+ }
+
+ @media screen and (max-width:805px) {
+    #project-box1 img {
+       height: 250px;
+    }
+
+    .project-box {
+       width: 47.5%;
+    }
+ }
+
+
+ @media screen and (max-width:768px) {
+    .container1 {
+       height: 600px;
+       padding-left: 20px;
+    }
+
+    .container1 img {
+       height: 600px;
+    }
+
+    .container1 p.pera1 {
+       font-size: 35px;
+    }
+
+    .container1 p.pera2 {
+       font-size: 25px;
+    }
+
+    #skil {
+       padding-left: 20px;
+    }
+
+    .project-box h2 {
+       font-size: 20px;
+    }
+ }
+
+ @media screen and (max-width: 754px) {
+    .div {
+       font-size: 13.5px;
+    }
+ }
+
+
+
+ @media screen and (max-width:665px) {
+    .projects {
+       flex-wrap: nowrap;
+       flex-direction: column;
+    }
+
+    .project-box {
+       width: 100%;
+    }
+
+    #project-box1 img {
+       height: 350px;
+    }
+
+    .project-box h2 {
+       font-size: 26px;
+    }
+ }
+
+
+
+ @media screen and (max-width:650px) {
+    .edu {
+       float: none;
+       width: 100%;
+       margin-bottom: 0;
+    }
+
+    .edu2 {
+       float: none;
+       width: 100%;
+       margin-bottom: 0;
+    }
+
+    .div {
+       width: 100%;
+       font-size: 15px;
+    }
+
+    /* container 6 start */
+
+    .part-one {
+       flex-direction: column;
+    }
+
+    .part-one-left {
+       width: 100%;
+    }
+
+    .part-one-right {
+       width: 100%;
+       margin-top: 24px;
+    }
+
+    .part-one-left input {
+       width: 95%;
+    }
+
+    .part-one-right input {
+       width: 95%;
+    }
+ }
+
+ @media screen and (max-width: 615px) {
+    #skil {
+       width: 79.5%;
+    }
+ }
+
+ @media screen and (max-width:500px) {
+    .container1 {
+       height: 500px;
+    }
+
+    .container1 img {
+       height: 500px;
+    }
+
+    .edu {
+       margin-left: 10px;
+    }
+
+    .edu2 {
+       margin-left: 10px;
+    }
+
+    #skil {
+       width: 76%;
+       padding-left: 0px;
+    }
+ }
+
+
+
+ @media screen and (max-width: 500px) {
+    .child1 {
+       width: 100%;
+    }
+
+    .child2 {
+       width: 100%;
+    }
+
+    .box {
+       padding: 0px 20px;
+    }
+
+    .container2 h1 {
+       width: 100%;
+    }
+
+    .container2 hr {
+       margin-left: 20px;
+    }
+
+    .container2 p {
+       width: 100%;
+    }
+
+    .child2 p.p2 {
+       padding-left: 0;
+       padding-right: 0;
+       margin: 0;
+    }
+
+    .child2 p.p3 {
+       padding-left: 0;
+       padding-right: 0;
+       margin: 0;
+    }
+
+    .div {
+       margin-left: -20px;
+    }
+
+
+    /* container 3 start */
+
+
+    .container3 {
+       padding: 0px 0px;
+    }
+
+    .container3 h1 {
+       width: 100%;
+    }
+
+    .container3 hr {
+       margin-left: 20px;
+    }
+
+    .container3 p {
+       width: 100%;
+    }
+
+    #skil {
+       width: 90.5%;
+       margin-left: 20px;
+    }
+
+
+    /* container 4 start */
+
+
+    .container4 h1 {
+       width: 100%;
+       /* margin-left: ; */
+    }
+
+    .container4 hr {
+       margin-left: 0px;
+    }
+
+    .container4 #pera {
+       width: 100%;
+    }
+
+    .eeducation {
+       width: 100%;
+    }
+
+    .eduu {
+       padding: 20px 0px;
+    }
+
+    /* container 5 start */
+
+    .container5 h1 {
+       width: 100%;
+    }
+
+    .container5 hr {
+       margin-left: 0px;
+    }
+
+    .container5 p {
+       width: 100%;
+    }
+
+    .projects {
+       width: 100%;
+    }
+
+    /* container 6 start */
+
+    .container6 h1 {
+       width: 100%;
+    }
+
+    .container6 hr {
+       margin-left: 0px;
+    }
+
+    .container6 #peraa {
+       width: 100%;
+    }
+
+    .contact-box {
+       width: 100%;
+       padding: 20px 0px;
+    }
+
+    .contact-box1 {
+       width: 100%;
+       padding: 20px 0px;
+       padding-left: 20px;
+    }
+
+    .contact-box {
+       padding-left: 20px;
+    }
+
+
+
+ }
+
+
+
+ @media screen and (max-width:450px) {
+    #project-box1 img {
+       height: 300px;
+    }
+
+    .project-box h2 {
+       font-size: 20px;
+    }
+ }
+
+ @media screen and (max-width:435px) {
+    .eduu {
+       flex-direction: column;
+    }
+
+    .edu-content {
+       margin-left: 3px;
+    }
+
+    .icon-back {
+       padding-top: 6.5px;
+    }
+
+ }
+
+
+
+ @media screen and (max-width:400px) {
+    .container1 {
+       height: 400px;
+    }
+
+    .container1 img {
+       height: 400px;
+    }
+
+    .container p.pera1 {
+       font-size: 30px;
+    }
+
+    .container p.pera2 {
+       font-size: 20px;
+    }
+
+    #skil {
+       width: 88.5%;
+    }
+
+
+ }
+
+
+ @media screen and (max-width: 360px) {
+    .child2 p.pp {
+       font-size: 30px;
+    }
+ }

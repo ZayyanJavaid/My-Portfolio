@@ -1,0 +1,476 @@
+ @media screen and (max-width: 1250px) {
+     .burger {
+         display: block;
+         position: fixed;
+     }
+
+     .parent1 {
+         display: none;
+         /* width: 0;
+         overflow: hidden; */
+     }
+
+     #parent2 {
+         width: 100%;
+     }
+
+     .container1 .pera1 {
+         font-size: 50px;
+     }
+
+     .container1 .pera2 {
+         font-size: 35px;
+     }
+
+     .child2 p.pp{
+        padding: 15px;
+     }
+ }
+
+
+
+
+ @media screen and (max-width: 995px) {
+    .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .child1{
+        width: 80%;
+        height: auto;
+    }
+
+    .child1 img{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .child2{
+        width: 80%;
+    }
+
+    .child2 p{
+        margin-left: -20px;
+    }
+
+    
+    .child2 p.p2{
+        margin-left: -20px;
+        width: 100%;
+    }
+
+    
+    .child2 p.p3{
+        margin-left: -20px;
+        width: 100%;
+    }
+
+    .div{
+        margin-left: -10px;
+    }
+
+    .container2 h1{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .container2 hr{
+        margin-left: 120px;
+        display: block;
+    }
+
+    .container2 p{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .child2 p.pp{
+        margin-top: 10px;
+        margin-right: 170px;
+        margin-left: -20px;
+        text-align: start;
+    }
+
+
+    /* container 3 start */
+
+    
+     .container3 h1{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .container3 hr{
+        margin-left: 120px;
+        display: block;
+    }
+
+    .container3 p{
+        width: 80%;
+        display: block;
+        margin: auto;
+    } 
+
+    #skil{
+        width: 76%;
+        display: block;
+        margin: auto;
+    }
+
+    /* container 5 start */
+
+    .container5 h1{
+       width: 80%;
+       display: block;
+       margin: auto;
+    }
+
+    .container5 hr{
+       margin-left: 95px;
+       display: block;
+    }
+
+    .container5 p{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .projects{
+        width: 80%;
+        display: block;
+        margin: auto;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .project-box{
+        width: 48%;
+    }
+
+    /* container 6 start */
+
+    .container6 h1{
+        width: 80%;
+        display: block;
+        margin: auto;
+     }
+ 
+     .container6 hr{
+        margin-left: 95px;
+        display: block;
+     }
+ 
+     .container6 #peraa{
+         width: 80%;
+         display: block;
+         margin: auto;
+     }
+
+     
+
+     .contact{
+        flex-direction: column;
+     }
+
+     .contact-box1{
+        width: 80%;
+        display: block;
+        margin: auto;
+     }
+   
+     .contact-box{
+        width: 80%;
+        display: block;
+        margin: auto;
+     }
+  
+}
+
+@media screen and (max-width:805px) {
+    #project-box1 img{
+        height: 250px;
+    }   
+
+    .project-box{
+        width: 47.5%;
+    }
+}
+
+
+ @media screen and (max-width:768px) {
+     .container1 {
+         height: 600px;
+         padding-left: 20px;
+     }
+
+     .container1 img {
+         height: 600px;
+     }
+
+     .container1 p.pera1 {
+         font-size: 35px;
+     }
+
+     .container1 p.pera2 {
+        font-size: 25px;
+    }
+
+    #skil{
+        padding-left: 5px;
+    }
+
+    .project-box h2{
+        font-size: 20px;
+    }
+ }
+
+
+
+ @media screen and (max-width:665px) {
+    .projects{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .project-box{
+        width: 100%;
+    }
+
+    #project-box1 img{
+        height: 350px;
+    }
+
+    .project-box h2{
+        font-size: 26px;
+    }
+ }
+
+
+
+ @media screen and (max-width:650px) {
+    .edu{
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .edu2{
+        float: none;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .div{
+        width: 100%;
+        
+    }
+
+    /* container 6 start */
+
+    .part-one{
+        flex-direction: column;
+    }
+
+    .part-one-left {
+        width: 100%;
+    }
+
+    .part-one-right {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .part-one-left input{
+        width: 95%;
+    }
+
+    .part-one-right input{
+        width: 95%;
+    }
+ }
+
+ @media screen and (max-width: 615px) {
+    #skil{
+        width: 74%;
+    }
+ }
+
+ @media screen and (max-width:500px) {
+     .container1 {
+         height: 500px;
+     }
+
+     .container1 img {
+         height: 500px;
+     }
+
+      .edu{
+        margin-left: 10px;
+      }
+
+      .edu2{
+        margin-left: 10px;
+      }
+
+      #skil{
+        width: 76%;
+        padding-left: 0px;
+      }
+ }
+
+
+
+@media screen and (max-width: 500px) {
+    .child1{
+       width: 100%;
+    }
+ 
+    .child2{
+       width: 100%;
+    }
+ 
+    .box{
+       padding: 0px 20px;
+    }
+
+    .container2 h1{
+        width: 100%;
+    }
+
+    .container2 hr{
+        margin-left: 20px;
+    }
+
+    .container2 p{
+        width: 100%;
+    }
+
+    .child2 p.p2{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .child2 p.p3{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .div{
+        margin-left: -20px;
+    }
+
+    /* container 3 start */
+  
+    .container3 h1{
+        width: 100%;
+    }
+
+    .container3 hr{
+        margin-left: 20px;
+    }
+
+    .container3 p{
+        width: 100%;
+    } 
+
+    #skil{
+        width: 90.5%;
+    }
+
+    /* container 5 start */
+
+    .container5 h1{
+        width: 100%;
+    }
+
+    .container5 hr{
+        margin-left: 0px;
+    }
+
+    .container5 p{
+        width: 100%;
+    } 
+
+    .projects{
+        width: 100%;
+    }
+
+    /* container 6 start */
+
+    .container6 h1{
+        width: 100%;
+    }
+
+    .container6 hr{
+        margin-left: 0px;
+    }
+
+    .container6 #peraa{
+        width: 100%;
+    } 
+
+    .contact-box{
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .contact-box1{
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+ }
+
+
+
+@media screen and (max-width:450px) {
+    #project-box1 img{
+        height: 300px;
+    }
+
+    .project-box h2{
+        font-size: 20px;
+    }
+}
+
+
+
+ @media screen and (max-width:400px) {
+    .container1 {
+        height: 400px;
+    }
+
+    .container1 img {
+        height: 400px;
+    }
+
+    .container p.pera1{
+        font-size: 30px;
+    }
+
+    .container p.pera2{
+        font-size: 20px;
+    }
+
+    #skil{
+        width: 88.5%;
+    }
+
+}
+
+
+ @media screen and (max-width: 360px) {
+    .child2 p.pp{
+        font-size: 30px;
+    }
+ }
